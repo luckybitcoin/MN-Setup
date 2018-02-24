@@ -40,9 +40,9 @@ mkdir /root/luckybit
 
 mkdir /root/.luckybitcore
 
-cp "/root/linux public release" /root/luckybit
+cp /root/luckybit-cli /root/luckybit
 
-cp "/root/linux public release/luckybit-cli" /root/luckybit
+cp /root/luckybitd /root/luckybit
 
 chmod -R 755 /root/luckybit
 
@@ -56,7 +56,7 @@ IP_ADD=`curl ipinfo.io/ip`
 
 echo -e "rpcuser=luckybitrpc\nrpcpassword=${GEN_PASS}\nserver=1\nlisten=1\nmaxconnections=256\ndaemon=1\nrpcallowip=127.0.0.1\nexternalip=${IP_ADD}" > /root/.luckybitcore/luckybit.conf
 
-cd "/root/linux public release"
+cd /root/luckybit
 
 ./luckybitd
 
