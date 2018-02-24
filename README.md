@@ -23,13 +23,17 @@ Masternode Installation
 						
 Login to your VPS server with root user. 
 
-We recommend http://digitalocean.com for your VPS and Ubuntu 14.x OS 
+We recommend http://digitalocean.com for your VPS and Ubuntu OS 
 
 Run following commands from console:
 						
 apt-get install wget -y
 
+(**FOR UBUNTU 14.04**)
 wget https://raw.githubusercontent.com/luckybitcoin/MN-Setup/master/install.sh 
+
+(**FOR UBUNTU 16.04**)
+wget https://raw.githubusercontent.com/luckybitcoin/MN-Setup/master/install-ubuntu-16-04.sh
 
 chmod 740 install.sh
 
