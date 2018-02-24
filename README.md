@@ -26,6 +26,7 @@ Login to your VPS server with root user.
 We recommend http://digitalocean.com for your VPS and Ubuntu OS 
 
 Run following commands from console:
+
 (**FOR UBUNTU 14.04**)
 						
 apt-get install wget -y
