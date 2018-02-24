@@ -26,18 +26,25 @@ Login to your VPS server with root user.
 We recommend http://digitalocean.com for your VPS and Ubuntu OS 
 
 Run following commands from console:
+(**FOR UBUNTU 14.04**)
 						
 apt-get install wget -y
 
-(**FOR UBUNTU 14.04**)
 wget https://raw.githubusercontent.com/luckybitcoin/MN-Setup/master/install.sh 
-
-(**FOR UBUNTU 16.04**)
-wget https://raw.githubusercontent.com/luckybitcoin/MN-Setup/master/install-ubuntu-16-04.sh
 
 chmod 740 install.sh
 
 ./install.sh
+
+(**FOR UBUNTU 16.04**)
+
+apt-get install wget -y
+
+wget https://raw.githubusercontent.com/luckybitcoin/MN-Setup/master/install-ubuntu-16-04.sh
+
+chmod 740 install-ubuntu-16-04.sh
+
+./install-ubuntu-16-04.sh
 						
 Now it will take some time. Wait until : «GOOD LUCK». It will also print masternode private key as: «Masternode private key:». Save that somewhere, you will use it later.
 						
