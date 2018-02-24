@@ -30,11 +30,11 @@ sudo apt-get update -y
 
 sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
 
-wget https://github.com/luckybitcoin/luckycore/releases/download/v1.0/Ubuntu14-04.tar.gz 
+wget https://github.com/luckybitcoin/luckycore/releases/download/v1.0/Ubuntu-14-04.tar.gz 
 
-chmod -R 755 /root/Ubuntu14-04.tar.gz
+chmod -R 755 /root/Ubuntu-14-04.tar.gz
 
-tar xvzf /root/Ubuntu14-04.tar.gz
+tar xvzf /root/Ubuntu-14-04.tar.gz
 
 mkdir /root/luckybit
 
