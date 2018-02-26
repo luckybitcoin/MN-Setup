@@ -41,7 +41,7 @@ chmod 740 install.sh
 
 apt-get install wget -y
 
-wget https://raw.githubusercontent.com/luckybitcoin/MN-Setup/master/install-ubuntu-16-04.sh
+wget https://raw.githubusercontent.com/luckybitcoin/MN-Setup/master/install-ubuntu-16-04.sh 
 
 chmod 740 install-ubuntu-16-04.sh
 
