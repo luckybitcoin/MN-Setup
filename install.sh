@@ -40,9 +40,9 @@ mkdir /root/luckybit
 
 mkdir /root/.luckybitcore
 
-cp /root/luckybit-cli /root/luckybit
+cp "/root/linux public release/luckybit-cli" /root/luckybit
 
-cp /root/luckybitd /root/luckybit
+cp "/root/linux public release/luckybitd" /root/luckybit
 
 chmod -R 755 /root/luckybit
 
